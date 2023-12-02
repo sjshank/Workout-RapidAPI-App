@@ -2,23 +2,23 @@ import React from "react";
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import { styled } from "@mui/material/styles";
+// import Button from "@mui/material/Button";
+// import { styled } from "@mui/material/styles";
 import Hero from "../assets/images/hero.jpg";
 
-const SearchExercisesButton = styled(Button)(({ theme }) => ({
-  color: "#5D2C03",
-  backgroundColor: "#FF9033",
-  fontSize: "18px",
-  fontWeight: "500",
-  margin: "20px 0",
-  width: "250px",
-  alignSelf: "flex-start",
-  "&:hover": {
-    backgroundColor: "#5D2C03",
-    color: "#FF9033",
-  },
-}));
+// const SearchExercisesButton = styled(Button)(({ theme }) => ({
+//   color: "#5D2C03",
+//   backgroundColor: "#FF9033",
+//   fontSize: "18px",
+//   fontWeight: "500",
+//   margin: "20px 0",
+//   width: "250px",
+//   alignSelf: "flex-start",
+//   "&:hover": {
+//     backgroundColor: "#5D2C03",
+//     color: "#FF9033",
+//   },
+// }));
 
 const HeroBanner = () => {
   return (

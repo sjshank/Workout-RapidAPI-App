@@ -9,6 +9,7 @@ export const reducer = (state, action) => {
       return {
         ...state,
         workouts : result.filter(item => {
+          
           if (
             item.name.toLowerCase().includes(action.query) ||
             item.target.toLowerCase().includes(action.query) ||

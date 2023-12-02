@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { fetchWorkout, workoutFetchOptions } from "../utils/fetchData";
-import { Box, Stack, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import WorkoutDetail from "../components/workoutDetail";
 
 const Exercise = () => {
